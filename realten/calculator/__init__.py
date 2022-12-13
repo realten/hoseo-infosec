@@ -1,0 +1,3 @@
+import calc
+
+calc.execute()
