@@ -18,7 +18,7 @@ def stringMultiple():
 
 def length():
     s1 = "Hello World"
-    print("문자열 길이 - len(s1) = ", len(s1))
+    print("문자열 길이 - len(s1) = %d" % (len(s1)))
 
 
 def index():
@@ -26,10 +26,10 @@ def index():
          "hijklmn" \
          "opqrstu" \
          "vwxyz"
-    print("5번째 문자열 - s1[4] =", s1[4])   # 배열은 0번부터 시작하므로 5번째는 s1[4]번째에 있다.
-    print("7번째부터 10번째 문자열 - s1[7:10] =", s1[7:10])
-    print("5번째까지의 문자열 - s1[:5] =", s1[:5])
-    print("22번째부터의 문자열 - s1[21:] =", s1[21:])
+    print("5번째 문자열 - s1[4] = %c" % (s1[4]))   # 배열은 0번부터 시작하므로 5번째는 s1[4]번째에 있다.
+    print("7번째부터 10번째 문자열 - s1[7:10] = %s" % (s1[7:10]))
+    print("5번째까지의 문자열 - s1[:5] = %s" % (s1[:5]))
+    print("22번째부터의 문자열 - s1[21:] = %s" % (s1[21:]))
 
 
 if __name__ == '__main__':
@@ -37,4 +37,3 @@ if __name__ == '__main__':
     stringMultiple()
     length()
     index()
-

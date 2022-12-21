@@ -9,4 +9,4 @@ def calc(v):
 
 
 # 함수 사용 및 형변환
-print('정답 : ' + str(calc(3)))
+print('정답 : %s' % (str(calc(3))))
