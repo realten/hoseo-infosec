@@ -15,12 +15,12 @@ def isNull(v):
     return bool(v)
 
 
-# And 연산자
+# And 연산
 def andCalc():
     return True & False
 
 
-# Or 연산자
+# Or 연산
 def orCalc():
     return True | False
 
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     print(f'''1 is {isNull(1)}, 0 is {isNull(0)}''')  # 숫자
     print(f'''[0, 1] is {isNull([0, 1])}, [] is {isNull([])}''')  # 리스트
     print(f'''(0 ,1) is {isNull((0, 1))}, () is {isNull(())}''')  # Tuple
-    print(f'''%s is {isNull({"k": "v"})}, %s is {isNull({})}''' % ({'k : v'}, {}))  # Dictionary
+    print(f'''%s is {isNull({"k": "v"})}, %s is {isNull({})}''' % ({'k': 'v'}, {}))  # Dictionary
     print(f'''None is {isNull(None)}''')  # None
-    print(f'True & False is {andCalc()}')
-    print(f'True | False is {orCalc()}')
+    print(f'True & False is {andCalc()}')   # And 연산
+    print(f'True | False is {orCalc()}')    # Or 연산
