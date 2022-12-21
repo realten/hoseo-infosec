@@ -1,9 +1,11 @@
-# 빈 리스트 생성
+# 자료형 공부
+
+## 빈 리스트 생성
 def emptylist():
     return list()
 
 
-# 리스트 인덱싱
+## 리스트 인덱싱
 def listindexing(i):
     list = ['a', 'b', 'c', 'd', 'e']
     return list[i]
