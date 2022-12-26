@@ -4,11 +4,11 @@
 def basic():
     print('integer - basic() start')
     n1 = 1          # 정수
-    n2 = 20.3e-1    # 실수
+    n2 = 0b10       # 2진수
     n3 = 0o10       # 8진수
-    n4 = 0x0A       # 16진수
+    n4 = 0x10       # 16진수
 
-    print(f'{n1}\n{n2}\n{n3}\n{n4}')
+    print('n1 - %d\nn2 - %d\nn3 - %d\nn4 - %d' % (n1, n2, n3, n4))
 
 
 def operator():
